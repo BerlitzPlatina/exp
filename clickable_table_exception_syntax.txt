@@ -1,0 +1,6 @@
+fnRowCallback: function(nRow, aData, iDisplayIndex, iDisplayIndexFull) {
+                $(nRow).on('click', 'td:not(:first-child, :last-child)',function() {
+                    document.location.href = `{{ route('sc_physical_warehouse.info') }}`;
+                    //document.location.href = `${aData['id']}`;
+                });
+            },

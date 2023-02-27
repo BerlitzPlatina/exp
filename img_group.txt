@@ -1,0 +1,8 @@
+<div class="input-group mb-3 border">
+  <div class="input-group-prepend bg-transparent">
+    <span class="input-group-text bg-transparent  border-0" id="basic-addon1">
+       <img src="https://art.pixilart.com/d200f77a5789629.png" style="width: 16px; height: 16px;" />
+    </span>
+  </div>
+  <input type="text" class="form-control border-0" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>

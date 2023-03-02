@@ -1,0 +1,3 @@
+function reset() {
+            document.location.href = `{{ route('sc_physical_warehouse') }}`;
+        }
